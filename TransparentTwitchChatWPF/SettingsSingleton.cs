@@ -36,7 +36,6 @@ namespace TransparentTwitchChatWPF
                 HideTaskbarIcon = false,
                 AllowInteraction = true,
                 VersionTracker = 0.7,
-                HighlightUsersChat = false,
                 AllowedUsersOnlyChat = false,
                 FilterAllowAllMods = false,
                 FilterAllowAllVIPs = false,

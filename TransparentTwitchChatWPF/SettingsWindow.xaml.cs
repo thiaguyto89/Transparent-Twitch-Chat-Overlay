@@ -149,7 +149,26 @@ namespace TransparentTwitchChatWPF
 
                 if (string.IsNullOrEmpty(this.config.CustomCSS))
                 {
-                    this.tbCSS.Text = CustomCSS_Defaults.NoneTheme_CustomCSS;
+                    this.tbCSS.Text = @"::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+#chat_box {
+
+}
+
+.chat_line {
+
+}
+
+.chat_line .nick {
+
+}
+
+.chat_line .message {
+
+}
+";
                 }
                 else
                 {
